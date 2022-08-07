@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.background {
+    background: rgb(101, 166, 204);
+    box-shadow: 15px 15px 12px 6px rgb(95, 155, 175);
+}
+
+.btn1 {
+    border: 2px solid blue;
+    margin-bottom: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: rgb(93, 30, 153);
+}
+
+button:hover {
+    background: blue;
+    color: white;
+}
+
+li:hover {
+    color: rgb(66, 66, 230);
+}
+
+.fnt {
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 886px) {
+    .new {
+        margin-bottom: 24rem;
+        padding-bottom: 10rem;
+    }
+
+    .new1 {
+        flex-direction: column;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .photo {
+        background: url(/img/pexels-karolina-grabowska-4397840.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .photo {
+        background: url(/img/pexels-karolina-grabowska-4397840.jpg);
+        background-position: center;
+        background-size: cover;
+        width: fit-content;
+    }
+
+    .foot {
+        margin-bottom: 7rem;
+    }
+
+    .box {
+        margin-top: 4rem;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .photo {
+        background: url(/img/pexels-karolina-grabowska-4397840.jpg);
+        background-position: center;
+        background-size: cover;
+        width: fit-content;
+    }
+
+    .foot1 {
+        margin-bottom: 10rem;
+        margin-left: 8rem;
+    }
+
+    .pad {
+
+        margin-left: 0rem;
+
+    }
+
+    .box1 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0;
+    }
+}
